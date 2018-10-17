@@ -98,7 +98,7 @@ int main()
 		}
 		else
 		{
-			beg = mid + 1;
+		    beg = mid + 1;
 		}		
 		mid = beg + (end - beg)/2;
 	}
