@@ -86,29 +86,29 @@ int main()
 	cout << iter1 - iter2 << endl;*/
 
 	vector<int> text{1,2,3,4,5,6,7,8,9};
-	int sought =10;
+	int sought =0;
 	auto beg = text.begin(), end = text.end();
 	
 	auto mid = text.begin() + (end - beg)/2;
 	while (mid != end && *mid != sought)
 	{
-		if (sought < *mid)
-		{
-		    end = mid;
-		}
-		else
-		{
-		    beg = mid + 1;
-		}		
-		mid = beg + (end - beg)/2;
+        if (sought < *mid)
+        {
+            end = mid;
+        }
+        else
+        {
+            beg = mid + 1;
+        }		
+        mid = beg + (end - beg)/2;
 	}
 	if (mid == end)
 	{
-		cout << "no catch!" << endl;
+	    cout << "no catch!" << endl;
 	}
 	else
 	{
-		cout << "catch!" <<endl;
+	    cout << "catch!" <<endl;
 	}
 	return 0;
 }
