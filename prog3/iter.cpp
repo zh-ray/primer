@@ -94,7 +94,7 @@ int main()
 	{
 		if (sought < *mid)
 		{
-			end = mid;
+		    end = mid;
 		}
 		else
 		{
