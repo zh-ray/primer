@@ -86,7 +86,7 @@ int main()
 	cout << iter1 - iter2 << endl;*/
 
 	vector<int> text{1,2,3,4,5,6,7,8,9};
-	int sought = 2; 3
+	int sought = 2;
 
 	return 0;
 }
