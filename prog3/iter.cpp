@@ -111,7 +111,17 @@ int main()
 	    cout << "catch!" <<endl;
 	} */
 
-    
+    vector<int> ivec;
+	int n;
+	while (cin >> n)
+	{
+        ivec.push_back(n);
+    }
+    for (auto iv = ivec.begin(); iv + 1 != ivec.end() && !isspace(*iv); ++iv)
+    {
+        cout << *iv + *(iv + 1) << " ";
+    }
+    cout << endl;
     
 	return 0;
 }
