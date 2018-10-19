@@ -111,7 +111,7 @@ int main()
 	    cout << "catch!" <<endl;
 	} */
 
-    vector<int> ivec;
+    /* vector<int> ivec;
     int n;
     while (cin >> n)
     {
@@ -121,7 +121,23 @@ int main()
     {
         cout << *iv + *(iv + 1) << " ";
     }
-    cout << endl;
+    cout << endl; */
+
+    /* vector<unsigned> scores(11, 0);
+    unsigned grade;
+    while (cin >> grade)
+    {
+        if (grade <= 100)
+        {
+            ++*(scores.begin() + grade/10);
+        }
+    }
+
+    for (auto s : scores)
+    {
+        cout << s << " ";
+    }
+    cout << endl; */
     
     return 0;
 }
