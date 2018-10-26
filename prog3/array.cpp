@@ -193,5 +193,29 @@ int main()
     s = "1";
     cout << cha << endl;
 
+    int int_arr[] = {1, 2, 3, 4, 5, 0};
+    vector<int> ivec(begin(int_arr), end(int_arr));
+    vector<int> subVec{*(int_arr + 1)};
+    for (auto i : ivec) {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    for (auto s : subVec) {
+        cout << s << " ";
+    }
+    cout << endl;
+
+    int arrCopy[20] = {0};
+    int k = 0;
+    for (auto i : ivec) {
+        arrCopy[k] = i;
+        ++k;
+    }
+    for (auto a : arrCopy) {
+        cout << a << " ";
+    }
+    cout << endl;
+
     return 0;
 }
