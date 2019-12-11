@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "C_Cpp.autocomplete": "Disabled",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
+        "editor.acceptSuggestionOnEnter": "off",
+        "editor.formatOnType": true, // 输入时就进行格式化，默认触发字符较少，分号可以触发
+        // "editor.snippetSuggestions": "top", // snippets代码优先显示补全
+
+        "C_Cpp.clang_format_sortIncludes": true, // 格式化时调整include的顺序（按字母排序）
+        "C_Cpp.errorSquiggles": "Disabled", // 因为有clang的补全，所以关掉
+        "C_Cpp.suggestSnippets": false,
+        "files.associations": {
+            "ostream": "cpp",
+            "vector": "cpp",
+            "map": "cpp",
+            "array": "cpp",
+            "bitset": "cpp",
+            "string_view": "cpp",
+            "initializer_list": "cpp",
+            "regex": "cpp",
+            "utility": "cpp",
+            "valarray": "cpp",
+            "iosfwd": "cpp",
+            "iostream": "cpp",
+            "new": "cpp"
+        },
+
+    }
+}

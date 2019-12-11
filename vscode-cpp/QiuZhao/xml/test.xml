@@ -1,0 +1,53 @@
+<report report_id="EAE38ADA" report_version="2">
+	<file_list file_error="0" file_name="ffe07a1a9e36073105bdd0d1b43fd2ec6befafbf39f3e7ba8214fde182e11386.exe" file_uid="899640">
+		<file>
+			<start_boot>
+				<field value="start_boot" />
+				<action_list>
+					<action api_name="CopyFileExW" call_name="eqgkYooU.exe" call_pid="356" call_time="23:13:29.485" ret_value="1">
+						<apiArg_list count="6">
+							<apiArg value="4e7ff6c" />
+							<apiArg value="4e7fd6c" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+						</apiArg_list>
+						<exInfo_list count="2">
+							<exInfo value="ckAY.exe" />
+							<exInfo value="C:\Documents and Settings\All Users\Documents\My Music\&#31034;&#20363;&#38899;&#20048;\Beethoven's Symphony No. 9 (Scherzo).wma.exe" />
+						</exInfo_list>
+					</action>
+					<action api_name="FFFFF" call_name="eqgkYooU.exe" call_pid="356" call_time="23:13:29.485" ret_value="1">
+						<apiArg_list count="6">
+							<apiArg value="4e7ff6c" />
+							<apiArg value="4e7fd6c" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+						</apiArg_list>
+						<exInfo_list count="2">
+							<exInfo value="ckAY.exe" />
+							<exInfo value="C:\Documents and Settings\All Users\Documents\My Music\&#31034;&#20363;&#38899;&#20048;\Beethoven's Symphony No. 9 (Scherzo).wma.exe" />
+						</exInfo_list>
+					</action>
+					<action api_name="CopyFileExW" call_name="eqgkYooU.exe" call_pid="356" call_time="23:13:29.485" ret_value="1">
+						<apiArg_list count="6">
+							<apiArg value="4e7ff6c" />
+							<apiArg value="4e7fd6c" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+							<apiArg value="0" />
+						</apiArg_list>
+						<exInfo_list count="2">
+							<exInfo value="ckAY.exe" />
+							<exInfo value="C:\Documents and Settings\All Users\Documents\My Music\&#31034;&#20363;&#38899;&#20048;\Beethoven's Symphony No. 9 (Scherzo).wma.exe" />
+						</exInfo_list>
+					</action>
+				</action_list>
+			</start_boot>
+		</file>
+	</file_list>
+</report>
